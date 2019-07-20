@@ -364,7 +364,7 @@ export default class TextField extends PureComponent {
 
     value = defaultVisible?
       defaultValue:
-      text;
+      value;
 
     let active = !!(value || props.placeholder);
     let count = value.length;
